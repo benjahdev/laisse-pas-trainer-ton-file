@@ -1,0 +1,89 @@
+.container {
+    overflow:hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+.contr {
+    background-color: #212121;
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+    border-radius:10px 10px 0 0;
+}
+
+.contr > h2 {
+    font-size: x-large;
+}
+
+.upload_form_cont {
+    background: -moz-linear-gradient(#ffffff, #f2f2f2);
+    background: -ms-linear-gradient(#ffffff, #f2f2f2);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+    background: -webkit-linear-gradient(#ffffff, #f2f2f2);
+    background: -o-linear-gradient(#ffffff, #f2f2f2);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2')";
+    background: linear-gradient(#ffffff, #f2f2f2);
+
+    color: #000;
+    overflow: hidden;
+}
+
+.info {
+    background-color: #fe7702;
+    border: 1px solid black;
+    font-weight: bold;
+    min-height: 200px;
+    margin-top: 20px;
+}
+.info > div {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px 5px;
+}
+.info > h2 {
+    padding: 0 15px;
+}
+
+.info > canvas {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.info #url {
+    width: 400px;
+}
+
+#dropArea {
+    background-color: #fe7702;
+    border: 1px ridge #000000;
+    font-size: 25px;
+    font-weight: bold;
+    min-height: 250px;
+    line-height: 250px;
+    text-align: center;
+}
+#dropArea.hover {
+    background-color: #CCCCCC;
+}
+#dropArea.uploading {
+    background: #EEEEEE url(/images/loading.gif) center 30% no-repeat;
+}
+#result .s, #result .f {
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#result .s {
+    background-color: #77fc9f;
+}
+#result .f {
+    background-color: #fcc577;
+}
+
+.hidden {
+    display: none;
+}
